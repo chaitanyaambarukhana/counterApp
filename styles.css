@@ -41,7 +41,7 @@ body, html {
     border: none;
     border-radius: 8px;
     cursor: pointer;
-}
+}   
 
 .optionButton:hover {
     background-color: #218838;
