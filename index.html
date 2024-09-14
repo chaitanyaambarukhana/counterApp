@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Counter Web App</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="counter">0</h1>
+
+        <!-- Buttons for selecting between 11 and 108 -->
+        <div id="options">
+            <button class="optionButton" data-multiple="11">11</button>
+            <button class="optionButton" data-multiple="108">108</button>
+        </div>
+
+        <button id="countButton" style="display: none;">Start Counting</button>
+        <audio id="chimeSound" src="chime.mp3" preload="auto"></audio>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
